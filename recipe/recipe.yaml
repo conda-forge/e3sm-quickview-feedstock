@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.1.2"
+  version: "2.2.0"
 
 package:
   name: e3sm-quickview
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/e3sm-quickview/e3sm_quickview-${{ version }}.tar.gz
-  sha256: 56035d18226f6cd76d4a577eef89a330660341dc89d155e1025bfa95ea8c2a09
+  sha256: 45f5f007889c7e047287175246296705b667d62b9af52d30f89466010afe802b
 
 build:
   number: 0
