@@ -143,6 +143,7 @@ Feedstock Maintainers
 =====================
 
 * [@alesgenova](https://github.com/alesgenova/)
+* [@huiwanpnnl](https://github.com/huiwanpnnl/)
 * [@jourdain](https://github.com/jourdain/)
 * [@psavery](https://github.com/psavery/)
 
