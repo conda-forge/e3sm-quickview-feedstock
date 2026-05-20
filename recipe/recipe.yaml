@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.7.6"
+  version: "2.7.7"
 
 package:
   name: e3sm-quickview
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/e3sm-quickview/e3sm_quickview-${{ version }}.tar.gz
-  sha256: cc8d305532fcd924b0f8498aa273054377add04e754508cee90ec5e5d92ddb5b
+  sha256: 6949d5a78c190692967f432ccb96c185b327743f44e45ebbc31777446896a92e
 
 build:
   number: 0
@@ -35,6 +35,7 @@ requirements:
     - trame-dataclass >=2.0.1
     - trame-components
     - trame-tauri >=0.6.2
+    - trame-colormaps >=1.1.1
     - pillow
 
 tests:
@@ -42,11 +43,9 @@ tests:
       imports:
         - e3sm_quickview
       pip_check: true
-      python_version: ${{ python_min }}.*
   - requirements:
       run:
         - pip
-        - python ${{ python_min }}.*
     script:
       - quickview --help
 
