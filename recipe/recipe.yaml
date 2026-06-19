@@ -1,15 +1,15 @@
 schema_version: 1
 
 context:
-  version: "2.8.1"
+  version: "2.8.2"
 
 package:
   name: e3sm-quickview
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/e/e3sm-quickview/e3sm_quickview-${{ version }}.tar.gz
-  sha256: c5a2d4d276c2a008a79852bc1cbd5418a01c9d6a247d382f657a4816ee5e51dd
+  url: https://files.pythonhosted.org/packages/48/5f/566bf9b2dbc1053060ee3c15b3d65f8295ded0ba78868eb02a98036dd580/e3sm_quickview-${{ version }}.tar.gz
+  sha256: a814b14ef0fc0e841505dc23c3facea6ac48a81002ea09f3cd84ccfc125d6888
 
 build:
   number: 0
@@ -27,15 +27,16 @@ requirements:
   run:
     - python >=${{ python_min }}
     - paraview >=6
-    - trame >=3.12
-    - trame-rca >=2.3.1
+    - wslink >=2.5.7
+    - trame >=3.13.2
+    - trame-rca >=2.5.1
     - trame-vuetify >=3.1
     - pyproj >=3.6.1
     - netcdf4 >=1.6.5
-    - trame-dataclass >=2.0.1
+    - trame-dataclass >=2.0.2
     - trame-components
     - trame-tauri >=0.6.2
-    - trame-colormaps >=1.1.1
+    - trame-colormaps >=1.4.3
     - pillow
 
 tests:
