@@ -36,7 +36,7 @@ requirements:
     - trame-dataclass >=2.0.2
     - trame-components
     - trame-tauri >=0.6.2
-    - trame-colormaps >=1.4.3
+    - trame-colormaps >=1.5.0
     - pillow
 
 tests:
