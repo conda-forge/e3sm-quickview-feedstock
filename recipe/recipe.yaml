@@ -12,7 +12,7 @@ source:
   sha256: 1c8049e8ceadad2fab8b8a592966390ae5f006c6b9ba636c5abd06c2642aed65
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
@@ -29,7 +29,7 @@ requirements:
     - paraview >=6
     - wslink >=2.5.7
     - trame >=3.13.2
-    - trame-rca >=2.5.1
+    - trame-rca >=2.6
     - trame-vuetify >=3.1
     - pyproj >=3.6.1
     - netcdf4 >=1.6.5
