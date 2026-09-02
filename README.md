@@ -193,6 +193,3 @@ Feedstock Maintainers
 * [@jourdain](https://github.com/jourdain/)
 * [@psavery](https://github.com/psavery/)
 
-
-<!-- dummy commit to enable rerendering -->
-
