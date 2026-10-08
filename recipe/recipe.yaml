@@ -1,15 +1,15 @@
 schema_version: 1
 
 context:
-  version: "2.10.3"
+  version: "2.10.4"
 
 package:
   name: e3sm-quickview
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/08/75/081d0f59d20518277acb46ab5464ac4971d1893a0ac87c341407670e5bed/e3sm_quickview-${{ version }}.tar.gz
-  sha256: e37eea97856862ea481ed1ce140b9abea8c88890f3de6d1384351bb7c6992c4c
+  url: https://files.pythonhosted.org/packages/5d/b3/1a3d9f8c4662b6bdb646ef3179c37a0a5ab244019f9dd5cccbf46b6dc524/e3sm_quickview-${{ version }}.tar.gz
+  sha256: d921995d5eb19a1185c3f97166693d708cf986c34364f2a4985b90b13f140184
 
 build:
   number: 0
